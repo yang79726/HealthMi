@@ -14,7 +14,6 @@ settings:
     CURRENT_PROJECT_VERSION: "1"
     TARGETED_DEVICE_FAMILY: "1"
     CODE_SIGN_STYLE: Automatic
-    # 不写死团�?ID：真机签名时�?Xcode 中选择自己的开发团�?
     ENABLE_TESTABILITY: YES
     SWIFT_STRICT_CONCURRENCY: targeted
 
