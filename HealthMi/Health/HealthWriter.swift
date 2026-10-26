@@ -1,4 +1,4 @@
-import HealthKit
+@preconcurrency import HealthKit
 import Foundation
 
 /// 幂等写入器，复刻 `healthloom.app` 的 `HealthKitWriter` 模式：

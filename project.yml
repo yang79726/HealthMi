@@ -16,7 +16,7 @@ settings:
     CODE_SIGN_STYLE: Automatic
     # 不写死团队 ID：真机签名时在 Xcode 中选择自己的开发团队
     ENABLE_TESTABILITY: YES
-    SWIFT_STRICT_CONCURRENCY: complete
+    SWIFT_STRICT_CONCURRENCY: minimal
 
 targets:
   HealthMi:

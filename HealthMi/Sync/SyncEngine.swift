@@ -1,5 +1,5 @@
 import Foundation
-import HealthKit
+@preconcurrency import HealthKit
 
 /// 单次同步的结果摘要。
 struct SyncOutcome: Sendable {
