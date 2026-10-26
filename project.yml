@@ -8,15 +8,15 @@ options:
 
 settings:
   base:
-    SWIFT_VERSION: "6.0"
+    SWIFT_VERSION: "5.0"
     IPHONEOS_DEPLOYMENT_TARGET: "17.0"
     MARKETING_VERSION: "1.1.0"
     CURRENT_PROJECT_VERSION: "1"
     TARGETED_DEVICE_FAMILY: "1"
     CODE_SIGN_STYLE: Automatic
-    # 不写死团队 ID：真机签名时在 Xcode 中选择自己的开发团队
+    # 不写死团�?ID：真机签名时�?Xcode 中选择自己的开发团�?
     ENABLE_TESTABILITY: YES
-    SWIFT_STRICT_CONCURRENCY: minimal
+    SWIFT_STRICT_CONCURRENCY: targeted
 
 targets:
   HealthMi:
